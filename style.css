@@ -130,3 +130,15 @@ ul{
    }
     
 }
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0C2B4E;
+    font-weight: 600;
+    color: white;
+}
