@@ -1,4 +1,5 @@
-const apiKey = "899e26a8860a71e12da62fd10e270633";
+const apiKey = ""; // removed
+//This is for the security to hide the API KEY
 
 document.getElementById("btn").addEventListener("click", () => {
     const city = document.getElementById("search").value.trim();
