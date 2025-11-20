@@ -6,14 +6,17 @@
 body {
   font-family: "Epunda Sans", sans-serif;
 }
-.page{
-    background-image: url("https://www.andrewshoemaker.com/images/640/radiance-makena-beach-sunset.jpg");
+
+
+.page {
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
     background-repeat: no-repeat;
     background-size: cover;
-    width:100vw;
-    height: 100dvh;
-    
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
+
 ul{
     list-style: none;
 }
@@ -22,12 +25,14 @@ ul{
     padding: 20px;
     width:70%;
     /*height:50%;*/
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.3);
     border-radius: 15px;
     position: absolute;
     top:70px;
 
 }
+
+ 
 .list{
     text-align: center;
 }
@@ -85,7 +90,7 @@ ul li:first-of-type{
     color: orange;
 }
 #btn:hover{
-    box-shadow: 2px 10px 2px;
+    box-shadow: 10px 2px 10px 2px white;
 }
 .bar{
     margin-bottom: 40px;
